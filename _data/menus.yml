@@ -2,7 +2,7 @@ main:
   - name: "Services"
     url: "/services/"
     weight: 2
-  - name: "Team"
+  - name: "Ekip"
     url: "/team/"
     weight: 3
   - name: "About"
@@ -13,7 +13,7 @@ main:
     weight: 5
 
 footer:
-  - name: "Home"
+  - name: "Anasayfa"
     url: "/"
     weight: 1
   - name: "Contact"
