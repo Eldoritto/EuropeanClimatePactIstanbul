@@ -8,5 +8,20 @@
     "name": "Twitter",
     "link": "https://twitter.com/zerostaticio",
     "image": "images/social/twitter.svg"
+  },
+  {
+    "name": "Instagram",
+    "link": "https://instagram.com",
+    "image": "images/social/instagram.svg"
+  },
+  {
+    "name": "LinkedIn",
+    "link": "https://linkedin.com",
+    "image": "images/social/linkedin.svg"
+  },
+  {
+    "name": "Youtube",
+    "link": "https://youtube.com",
+    "image": "images/social/youtube.svg"
   }
 ]
