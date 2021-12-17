@@ -20,7 +20,8 @@
     display: none;
   }
   img {
-    width: 100%;
+    min-width: 322px;
+    min-height: 35px;
     height: auto;
   }
   a {
