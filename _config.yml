@@ -1,14 +1,14 @@
 baseurl: '/'
 permalink: pretty
-title: 'Going to be replaced with a logo WIP'
+title: 'EuropeanClimatePactIstanbul'
 
 logo:
   mobile: "images/logo/logo.svg"
   mobile_height: "35px"
   mobile_width: "322px"
   desktop: "images/logo/logo.svg"
-  desktop_height: "70px"
-  desktop_width: "644px"
+  desktop_height: "64px"
+  desktop_width: "635px"
 
 collections:
   services:

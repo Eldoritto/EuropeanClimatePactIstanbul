@@ -2,17 +2,17 @@ main:
   - name: "Anasayfa"
     url: "/"
     weight: 2
-  - name: "Konuşmacılar"
-    url: "/team/"
+  - name: "Katılımcılar"
+    url: "/katilimcilar/"
     weight: 3
   - name: "Hakkımızda"
-    url: "/about/"
+    url: "/hakkimizda/"
     weight: 4
   - name: "İletişim"
-    url: "/contact/"
+    url: "/iletisim/"
     weight: 5
 
 footer:
   - name: "İletişim"
-    url: "/contact/"
+    url: "/iletisim/"
     weight: 0
