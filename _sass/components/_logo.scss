@@ -5,6 +5,9 @@
   }
   img {
     max-width: unset;
+    aspect-ratio: auto 644 / 70;
+    width: 70vh;
+    height: 8vh;
   }
   a {
     display: block;
@@ -20,10 +23,10 @@
     display: none;
   }
   img {
-    min-width: 322px;
-    min-height: 35px;
-    height: auto;
-    width: auto;
+    max-width: unset;
+    aspect-ratio: auto 322 / 35;
+    width: 36vh;
+    height: 6vh;
   }
   a {
     display: block;

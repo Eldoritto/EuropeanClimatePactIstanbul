@@ -15,4 +15,4 @@ main:
 footer:
   - name: "İletişim"
     url: "/contact/"
-    weight: 1
+    weight: 0
