@@ -13,9 +13,6 @@ main:
     weight: 5
 
 footer:
-  - name: "Anasayfa"
-    url: "/"
-    weight: 1
   - name: "İletişim"
     url: "/contact/"
-    weight: 2
+    weight: 1
