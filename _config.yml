@@ -4,11 +4,11 @@ title: 'EuropeanClimatePactIstanbul'
 
 logo:
   mobile: "images/logo/logo.svg"
-  mobile_height: "35px"
-  mobile_width: "322px"
+  mobile_height: "24px"
+  mobile_width: "312.2px"
   desktop: "images/logo/logo.svg"
-  desktop_height: "64px"
-  desktop_width: "635px"
+  desktop_height: "48px"
+  desktop_width: "625px"
 
 collections:
   services:
