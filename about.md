@@ -1,5 +1,5 @@
 ---
-title: About
+title: Hakkımızda
 layout: page
 description: About
 permalink: "/hakkimizda/"

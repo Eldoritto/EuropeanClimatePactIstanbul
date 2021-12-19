@@ -1,5 +1,5 @@
 ---
-title: EuropeanClimatePactIstanbul
+title: TEDx | ECPIstanbul
 layout: home
 description: Jekyll Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
 intro_image_absolute: true

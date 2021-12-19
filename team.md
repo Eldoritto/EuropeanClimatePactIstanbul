@@ -1,5 +1,5 @@
 ---
-title: Team
+title: Katılımcılar
 layout: teams
 description: Team
 permalink: "/katilimcilar/"
