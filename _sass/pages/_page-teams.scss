@@ -1,5 +1,8 @@
 .page-teams {
   .team-summary {
+    background-color: $white-offset;
+    padding: 30px;
+    border-radius: 3px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -10,7 +13,7 @@
       border-radius: 50%;
       overflow: hidden;
       img {
-        width: 60px;
+        width: 90px;
       }
     }
     .team-meta {
@@ -45,7 +48,7 @@
       border-radius: 50%;
       overflow: hidden;
       img {
-        width: 90px;
+        width: 120px;
       }
     }
   }
