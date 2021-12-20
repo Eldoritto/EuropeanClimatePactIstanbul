@@ -5,7 +5,7 @@ draft: false
 image: "/images/team/cristian-newman-94319-unsplash.jpg"
 jobtitle: "Place Holder"
 weight: 5
-promoted: true
+promoted: false
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum arcu vitae elementum curabitur vitae nunc sed. Tortor at risus viverra adipiscing at in.
