@@ -18,15 +18,15 @@ bodyClass: "page-teams"
     </div>
 </div>
 
-<div class="container pt-6 pb-6">
+<div class="container pt-2 pb-2">
     <div class="row">
         {% assign promoted_teams = site.team | where: "promoted", true | sort: "weight" %}
         {% for team in promoted_teams %}
-        <div class="col-12 col-md-6 mb-2">
+        <div class="col-12 col-md-6 mb-3">
             <div class="team team-summary team-summary-large">
                 {% if team.image %}
                 <div class="team-image">
-                    <img width="120" height="120" alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
+                    <img alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
                 </div>
                 {% endif %}
                 <div class="team-meta">
@@ -41,14 +41,14 @@ bodyClass: "page-teams"
         </div>
         {% endfor %}
     </div>
-    <div class="row pt-6 pb-6">
+    <div class="row pt-0 pb-2">
         {% assign teams = site.team | where: "promoted", false | sort: "weight" %}
         {% for team in teams %}
         <div class="col-12 col-md-4 mb-3">
             <div class="team team-summary">
                 {% if team.image %}
                 <div class="team-image">
-                    <img width="90" height="90" alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
+                    <img alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
                 </div>
                 {% endif %}
                 <div class="team-meta">
@@ -58,7 +58,7 @@ bodyClass: "page-teams"
                     <a target="_blank" href="{{ team.linkedinurl }}" rel="noreferrer">LinkedIn</a>
                     {% endif %}
                 </div>
-                <div class="team-content">{{ team.content | truncate: 120 }}</div>
+                <div class="team-content">{{ team.content | truncate: 90 }}</div>
             </div>
         </div>
         {% endfor %}
