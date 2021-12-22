@@ -17,13 +17,13 @@
   }
   .call-box-top {
     flex: 1 0 auto;
-    padding: 20px;
+    padding: calc(0.6em + 0.4vw);
     @include media-breakpoint-up(md) {
     }
   }
   .call-box-bottom {
     flex: auto;
-    padding: 20px;
+    padding: calc(0.6em + 0.4vw);
     border-top: 1px solid darken($white, 5%);
     @include media-breakpoint-up(sm) {
       flex: 0 0 auto;
@@ -31,7 +31,7 @@
     }
   }
   .call-name {
-    font-size: 1.1rem;
+    font-size: calc(0.6em + 0.5vw);
     font-weight: bold;
     color: $white;
   }

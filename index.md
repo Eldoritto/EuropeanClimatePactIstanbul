@@ -5,6 +5,7 @@ description: Jekyll Serif contains content types for a typical business website.
 intro_image_absolute: true
 intro_image_hide_on_mobile: false
 intro_image: "images/illustrations/pointing.svg"
+show_call_box: true
 ---
 
 # Serif - A Jekyll Business Theme.
