@@ -20,10 +20,10 @@ bodyClass: "page-teams"
 
 <div class="container pt-2 pb-2">
     <div class="row">
-        {% assign promoted_teams = site.team | where: "promoted", true | sort: "weight" %}
+        {% assign promoted_teams = site.team | where: "promoted", true | where: "member", false | sort: "weight" %}
         {% for team in promoted_teams %}
         <div class="col-12 col-md-6 mb-3">
-            <div class="team team-summary team-summary-large">
+            <div class="team team-summary team-summary-big">
                 {% if team.image %}
                 <div class="team-image">
                     <img alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
@@ -42,7 +42,7 @@ bodyClass: "page-teams"
         {% endfor %}
     </div>
     <div class="row pt-0 pb-2">
-        {% assign teams = site.team | where: "promoted", false | sort: "weight" %}
+        {% assign teams = site.team | where: "promoted", false | where: "member", false | sort: "weight" %}
         {% for team in teams %}
         <div class="col-12 col-md-4 mb-3">
             <div class="team team-summary">
@@ -58,7 +58,7 @@ bodyClass: "page-teams"
                     <a target="_blank" href="{{ team.linkedinurl }}" rel="noreferrer">LinkedIn</a>
                     {% endif %}
                 </div>
-                <div class="team-content">{{ team.content | truncate: 90 }}</div>
+                <div class="team-content">{{ team.content | truncate: 120 }}</div>
             </div>
         </div>
         {% endfor %}

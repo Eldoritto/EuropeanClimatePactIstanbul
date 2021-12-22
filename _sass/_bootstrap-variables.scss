@@ -12,12 +12,12 @@ $container-max-widths: (
   sm: 766px,
   md: 940px,
   lg: 1060px,
-  xl: 1340px,
+  xl: 1240px,
 );
 
 $grid-gutter-width: 30px;
 
-$spacer: 1rem;
+$spacer: 0.5rem;
 $spacers: ();
 $spacers: map-merge(
   (
