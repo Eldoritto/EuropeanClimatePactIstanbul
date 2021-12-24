@@ -8,6 +8,10 @@
 
   padding: 0;
   margin-bottom: 30px;
+  @include media-breakpoint-up(ss) {
+
+  }
+
   @include media-breakpoint-up(sm) {
 
   }

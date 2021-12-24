@@ -3,42 +3,58 @@ layout: default
 bodyClass: "page-home"
 ---
 
-<div class="intro">
-  <div class="container">
-    <div class="row justify-content-start">
-      {% if page.intro_image %}
-      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-        <img alt="{{ page.title }}" class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relURL }}" />
-      </div>
-      {% endif %}
-      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
-        {{ content }}
-      </div>
-    </div>
-  </div>
-</div>
+<html>
+    <head>
+        <title>Test</title>
+        <link rel="stylesheet" href="/lib/owl-carousel/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="/lib/owl-carousel/assets/owl.theme.default.min.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+        <script src="/lib/owl-carousel/owl.carousel.min.js"></script>
+        <script src="/lib/scripts.js"></script>
+    </head>
 
-<div class="strip">
-  <div class="container pt-2 pb-2 pb-md-10">
-    <div class="row justify-content-start">
-      {% for service in site.services %}
-      <div class="col-12 pb-2 col-md-10 mb-1">
-        <div class="service service-summary">
-          <div class="service-content">
-            <h2 class="service-title">
-              <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
-            </h2>
-            <div class="content mt-2">{{ service.content }}</div>
-          </div>
+    <body>
+
+    <div class="owl-carousel owl-theme">
+        <div>
+            <img src="/images/illustrations/slide1.png">
 
         </div>
-      </div>
-      {% endfor %}
+        <div>
+            <img src="/images/illustrations/slide2.png">
+        </div>
+        <div>
+            <img src="/images/illustrations/slide3.png">
+        </div>
+
+    </div>
+    <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+        {{ content }}
     </div>
 
-  </div>
-</div>
+    <div class="strip">
+        <div class="container pt-2 pb-2 pb-md-10">
+            <div class="row justify-content-start">
+                {% for service in site.services %}
+                <div class="col-12 pb-2 col-md-10 mb-1">
+                    <div class="service service-summary">
+                        <div class="service-content">
+                            <h2 class="service-title">
+                                <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
+                            </h2>
+                            <div class="content mt-2">{{ service.content }}</div>
+                        </div>
 
-{% if site.data.features %}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
 
-{% endif %}
+        </div>
+    </div>
+
+    {% if site.data.features %}
+
+    {% endif %}
+    </body>
+</html>
