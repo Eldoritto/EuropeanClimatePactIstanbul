@@ -122,11 +122,9 @@ body {
 
 /*------------------- TABLET ------------------*/
 @media only screen and ( min-width: 600px ) and ( max-width: 999px ) {
-  .custom_overlay h4 { font-size: 80%;}
-  .custom_overlay p {
-    font-size: 85%;
+  .custom_overlay h4 {font-size: calc(2.0em + 0.3vw);}
+  .custom_overlay p {font-size: calc(1.8em + 0.3vw);}
   }
-}
 
 /*------------------- MOBILE ------------------*/
 @media only screen and ( max-width: 599px ) {
