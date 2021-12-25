@@ -109,8 +109,9 @@ body {
 
 .custom_overlay p {
   color: $primary;
-  font-size: calc(8em + 0.5vw);
+  font-size: calc(4em + 0.3vw);
   line-height: calc(1em + 1vw);
+  font-family: "Gilroy Bold";
 }
 
 .custom_overlay h4:after {
