@@ -13,6 +13,28 @@
 }
 
 @font-face {
+	font-family: 'Helvetica Bold';
+	font-style: normal;
+	font-weight: 400;
+	src: local(''), url('../fonts/Helvetica-Bold.ttf') format('truetype');
+}
+
+
+@font-face {
+	font-family: 'Roboto Regular';
+	font-style: auto;
+	font-weight: 400;
+	src: local(''), url('../fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Roboto Bold';
+	font-style: auto;
+	font-weight: bold;
+	src: local(''), url('../fonts/Roboto-Bold.ttf') format('truetype');
+}
+
+@font-face {
 	font-family: 'Gilroy Bold';
 	font-style: auto;
 	font-weight: bold;
