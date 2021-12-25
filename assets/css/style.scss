@@ -81,7 +81,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  text-align: left;
+  text-align: center;
   opacity: 1;
   -webkit-transition: all 400ms ease-in-out;
   -moz-transition: all 400ms ease-in-out;
@@ -109,7 +109,7 @@ body {
 
 .custom_overlay p {
   color: $primary;
-  font-size: calc(4em + 0.3vw);
+  font-size: calc(4em + 0.25vw);
   line-height: calc(1em + 1vw);
   font-family: "Gilroy Bold";
 }
@@ -130,6 +130,6 @@ body {
 
 /*------------------- MOBILE ------------------*/
 @media only screen and ( max-width: 599px ) {
-  .custom_overlay h4 { font-size: 100%;}
-  .custom_overlay p { font-size: 100%;}
+  .custom_overlay h4 {font-size: calc(1.6em + 0.2vw);}
+  .custom_overlay p {font-size: calc(1.4em + 0.2vw);}
 }
