@@ -2,20 +2,20 @@
 	font-family: 'Playfair Display';
 	font-style: normal;
 	font-weight: 400;
-	src: url('/assets/fonts/playfair-display.woff2');
+	src: url('assets/fonts/playfair-display.woff2') format('truetype');
 }
 
 @font-face {
 	font-family: 'Helvetica';
 	font-style: normal;
 	font-weight: 400;
-	src: url('/assets/fonts/Helvetica.ttf');
+	src: url('assets/fonts/Helvetica.ttf') format('truetype');
 }
 
 @font-face {
 	font-family: 'Gilroy Bold';
 	font-style: auto;
 	font-weight: bold;
-	src: url('/assets/fonts/Gilroy-ExtraBold.ttf');
+	src: url('assets/fonts/Gilroy-ExtraBold.ttf') format('truetype');
 }
 
