@@ -1,0 +1,17 @@
+# Site settings
+title: EuropeanClimatePactIstanbul
+email: Placeholder
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+
+twitter_username: TEDxECPIstanbul
+github_username: Placeholder
+
+logo:
+  desktop: "img/logo.svg"
+  desktop_height: "48px"
+  desktop_width: "625px"
+
+# Build settings
+markdown: kramdown

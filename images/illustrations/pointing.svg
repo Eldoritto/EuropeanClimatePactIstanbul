@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="3840mm"
+   height="2160mm"
+   viewBox="0 0 3840 2160"
+   version="1.1"
+   id="svg996"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="pointing.svg">
+  <defs
+     id="defs990" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.05"
+     inkscape:cx="-534.65392"
+     inkscape:cy="4052.6026"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-global="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1012"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata993">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,1863)">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:48.65825653;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1627"
+       width="426.86111"
+       height="2185.4585"
+       x="2.5431316e-06"
+       y="-1867.2917" />
+    <rect
+       style="opacity:1;fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:48.65825653;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1627-3"
+       width="426.86111"
+       height="2185.4585"
+       x="426.86111"
+       y="-1867.2917" />
+    <rect
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:48.65825653;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1627-6"
+       width="426.86111"
+       height="2185.4585"
+       x="853.72223"
+       y="-1867.2917" />
+    <path
+       style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:48.65825653;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1280.5833,-1867.2917 h 426.8611 V 318.1668 h -426.8611 z"
+       id="rect1627-3-7"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="opacity:1;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:48.65825653;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1627-3-5"
+       width="426.86111"
+       height="2185.4585"
+       x="1707.4445"
+       y="-1867.2917" />
+    <path
+       style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:48.65825653;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 2134.3056,-1867.2917 h 426.8611 V 318.1668 h -426.8611 z"
+       id="rect1627-35"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:48.65825653;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 2561.1667,-1867.2917 h 426.8611 V 318.16678 h -426.8611 z"
+       id="rect1627-3-7-9" />
+    <rect
+       style="opacity:1;fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:48.65825653;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1627-3-5-1"
+       width="426.86111"
+       height="2185.4585"
+       x="2988.0278"
+       y="-1867.2917" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:48.65825653;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 3414.8889,-1867.2917 H 3841.75 V 318.16678 h -426.8611 z"
+       id="rect1627-35-2" />
+  </g>
+</svg>
